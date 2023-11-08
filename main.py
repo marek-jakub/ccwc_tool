@@ -42,7 +42,7 @@ def apply_wc(action, file_name, search_object):
     Parameters
     ----------
     action: string
-        The value of the command.
+        The value of the user input.
     file_name: string
         The name of the file.
     search_object: dict
