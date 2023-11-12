@@ -3,7 +3,7 @@
 ## Table of contents
 - [System Requirements](#system-requirements)
 - [Project Structure](#project-structure)
-- [Use of the Tool](#tool-use)
+- [Use of the Tool](#use-of-the-tool)
 - [Tool Testing](#tool-testing)
 
 
