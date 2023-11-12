@@ -20,7 +20,7 @@ There are three external libraries used, re (regular expressions), os (operating
 ├── ccwc_methods.py                  - the file contains static methods used in input file assessemnt.
 ├── main.py                          - the tool main entry.
 ├── test.py                          - tests applied in static methods assessment.
-├── test.txt                         - the file used in ccwc tool assessment.
+└── test.txt                         - the file used in ccwc tool assessment.
 
 ```
 
