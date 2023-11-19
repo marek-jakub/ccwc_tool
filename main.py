@@ -10,7 +10,7 @@ https://codingchallenges.fyi/challenges/challenge-wc/.
 import re
 import ccwc_methods
 
-ccwc = ccwc_methods.CCWC()
+ccwc = ccwc_methods.Ccwc()
 
 # A dictionary of ccwc command combinations with keys given as regex strings.
 patterns = {

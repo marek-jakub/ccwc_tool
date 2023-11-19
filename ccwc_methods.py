@@ -1,7 +1,7 @@
 import os
 
 
-class CCWC:
+class Ccwc:
     """A selection of static methods used to operate on the file and return
     its characteristics.
     """
@@ -26,8 +26,7 @@ class CCWC:
         line_count = 0
         try:
             with open(file, 'r') as curr_file:
-                for line in curr_file:
-                    line_count += 1
+                line_count = len(curr_file.readlines())
             return line_count
         except FileNotFoundError:
             return 'File not found'
@@ -53,8 +52,8 @@ class CCWC:
 
         The number of lines, words and bytes in the file.
         """
-        return (str(CCWC.lines_in_file(file)) + ' ' + str(CCWC.words_in_file(file)) +
-                ' ' + str(CCWC.bytes_in_file(file)))
+        return (str(Ccwc.lines_in_file(file)) + ' ' + str(Ccwc.words_in_file(file)) +
+                ' ' + str(Ccwc.bytes_in_file(file)))
 
     @staticmethod
     def chars_in_file(file):
